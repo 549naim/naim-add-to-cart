@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CardContext from '../src/Context/CardContext'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CardContext>
+    
+      <App />
+    
+     
+    </CardContext>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

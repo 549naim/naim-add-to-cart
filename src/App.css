@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+.section1{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.shoping{
+  padding-top: 20px;
+}
+.continue{
+  font-size:20px;
+  font-weight:bold;
+}
+.q-num{
+  width: 50px;
+}
+.item-info img{
+  width: 150px;
+}
+.quantity{
+  display: flex;
+  justify-content:space-between;
+  padding-top: 25px;
+}
+.total{
+  text-align:right;
+}
+.main-cart-section{
+  background-color:rgba(216, 210, 210, 0.721)
+}
+.cart-item-container{
+  background-color:rgba(56, 60, 66, 0.381)
+}
+.cart-item{
+  overflow-y: scroll;
+  height: 400px;
+}
+.r1{
+  padding-top: 20px;
+}
+.c-des{
+  padding-top: 20px;
+}
+.btn-clear{
+  float: left;
+}
+.btn-cheakout{
+  float: right
+}
+.logo-text{
+  height:30px;
+  width:30px;
+  border: 1px dotted blue;
+  padding: 5%;
+  text-align: center;
+  margin-top:-50px;
+  background-color:rgb(118, 150, 225);
+  position: relative;
+  border-radius: 15px;
 }
